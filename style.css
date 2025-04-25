@@ -1,0 +1,63 @@
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(to right, #ff7e5f, #8f43cc);
+  color: white;
+  text-align: center;
+}
+header {
+  padding: 2rem;
+}
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+h2 {
+  margin-top: 2rem;
+  font-size: 2rem;
+}
+.produtos {
+  padding: 2rem;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.card {
+  background: white;
+  color: #333;
+  border-radius: 12px;
+  width: 220px;
+  padding: 1rem;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+}
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+.card h3 {
+  margin: 0.5rem 0 0.2rem;
+}
+.card p {
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #8f43cc;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #ff7e5f;
+}
+footer {
+  margin-top: 3rem;
+  padding: 1rem;
+  background: rgba(0,0,0,0.2);
+}
